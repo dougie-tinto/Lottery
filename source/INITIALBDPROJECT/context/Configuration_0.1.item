@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="The Host Mongo is running on" name="mongoHost" prompt="mongoHost?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter comment="The Mongo Port" name="mongoPort" prompt="mongoPort?" promptNeeded="false" type="id_Integer" value="27017"/>
+  <contextParameter comment="The Database" name="mongoDatabase" prompt="mongoDatabase?" promptNeeded="false" type="id_String" value="lottery"/>
+  <contextParameter comment="The collection to use for the Job (under Database)" name="mongoCollection" prompt="mongoCollection?" promptNeeded="false" type="id_String" value="results"/>
+  <contextParameter comment="The lottery results input file. Note this must adhere to the schema defined" name="inputFile" prompt="inputFile?" promptNeeded="false" type="id_String" value="C:/Users/Dougie/Lottery/data/downloadResultsCSV.csv"/>
+</talendfile:ContextType>
